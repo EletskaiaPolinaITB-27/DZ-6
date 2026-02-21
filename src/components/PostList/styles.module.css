@@ -1,0 +1,12 @@
+.wrapper {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.post {
+  padding: 12px;
+  background-color: #8d449f;
+  border-radius: 8px;
+}
