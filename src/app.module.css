@@ -1,0 +1,10 @@
+.container {
+  padding: 40px;
+  background-color: #1c1e3c;
+  width: 100%;
+  color: white;
+}
+.users {
+  display: grid;
+  gap: 20px;
+}

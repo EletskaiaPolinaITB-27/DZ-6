@@ -2,7 +2,9 @@ export interface IUser {
     id: number
     name: string
     email: string
-    company: string
+    company: {
+    name: string
+  }
 }
 
 export interface IPost {

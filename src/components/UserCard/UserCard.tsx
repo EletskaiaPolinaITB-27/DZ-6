@@ -11,7 +11,7 @@ export const UserCard = ({ user, onClick }: Props) => {
     <div className={styles.card} onClick={() => onClick(user.id)}>
       <h3>{user.name}</h3>
       <p>Email: {user.email}</p>
-      <p>Company: {user.company}</p>
+      <p>Company: {user.company.name}</p>
     </div>
   )
 }
